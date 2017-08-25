@@ -12,4 +12,11 @@
 // };
 //
 // myFunc2();//if this variable invocation appears before the expression, it will return an error.
-setInterval(function () {alert('HI!');}, 3000);
+
+//setInterval(function () {alert('HI!');}, 3000);
+var annoy = function () {
+  var now = new Date();
+  alert(now);
+};
+
+setInterval(annoy, 3000);
