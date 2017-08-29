@@ -1,0 +1,17 @@
+h1 {
+  color: yellow;
+  background-color: orange;
+  font-family: Arial;
+}
+body {
+  background-color: pink;
+}
+h1#blue {
+  color:purple;
+}
+/*a:hover {
+  color: green;
+}*/
+a:active a:visited {
+  color:red;
+} 
