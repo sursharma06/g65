@@ -1,7 +1,8 @@
 
-function personalVirus(myName, yourName) {
-  console.log('Your machine is infected ' + myName + '!!!');
-  console.log('Your machine is infected ' + yourName + '!!!');
+function yourName(firstName, lastName) {
+  var myName = 'Surbhi';
+  return firstName + ' ' + lastName;
 }
 //have to invoke the function for it to run in the iterm
-personalVirus('Surbhi', 'Jen');
+var fullName = yourName('Surbhi', 'Sharma');
+console.log(myName); //inside the functional scope so undefined returns in the console.
